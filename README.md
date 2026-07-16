@@ -1,31 +1,46 @@
 # 🎬 Movie Recommendation System
 
-A Machine Learning-based Movie Recommendation System built using **Python**, **Scikit-learn**, and **Streamlit**. This application recommends similar movies based on content similarity and displays movie posters using the **TMDB API** through an interactive web interface.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/movie-recommender-system?style=for-the-badge&color=yellow" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/YOUR_GITHUB_USERNAME/movie-recommender-system?style=for-the-badge&color=blue" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/license/YOUR_GITHUB_USERNAME/movie-recommender-system?style=for-the-badge&color=green" alt="License">
+</p>
+
+<p align="center">
+  A high-performance, Machine Learning-powered Content-Based Movie Recommendation System. Built using <b>Python</b>, <b>Scikit-Learn</b>, and deployed with an interactive <b>Streamlit</b> web application that fetches live movie posters via the <b>TMDB API</b>.
+</p>
+
+---
+
+## 📌 Table of Contents
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Machine Learning Workflow](#-machine-learning-workflow)
+- [Installation & Usage](#-installation--usage)
+- [Screenshots](#-screenshots)
+- [Dataset Details](#-dataset-details)
+- [Future Enhancements](#-future-enhancements)
 
 ---
 
 ## 📌 Features
 
-- 🎥 Recommend 5 similar movies
-- 🖼️ Display movie posters using TMDB API
-- ⚡ Fast recommendations with Cosine Similarity
-- 🌐 Interactive Streamlit web application
-- 🧠 Content-Based Recommendation System
-- 📱 Clean and responsive user interface
+*   **⚡ Smart Content Filtering:** Recommends 5 highly relevant movies based on genres, keywords, cast, and crew analysis.
+*   **🖼️ Dynamic Poster Fetching:** Integrates live data extraction from the **TMDB API** to show visually appealing movie posters.
+*   **🧠 Text Vectorization:** Implements Bag-of-Words via `CountVectorizer` and text normalization with NLTK's `PorterStemmer`.
+*   **🌐 Modern UI:** Responsive, minimalist, and clean web layout using Streamlit.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- NLTK
-- Streamlit
-- Requests
-- TMDB API
-- Pickle
+| Category | Technologies & Libraries |
+| :--- | :--- |
+| **Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
+| **Data & ML** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![NLTK](https://img.shields.io/badge/NLTK-268B63?style=flat) |
+| **Frontend/Web** | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![Requests](https://img.shields.io/badge/Requests-000000?style=flat) |
+| **API & Storage**| TMDB API, Pickle (Serialization) |
 
 ---
 
@@ -33,115 +48,18 @@ A Machine Learning-based Movie Recommendation System built using **Python**, **S
 
 ```text
 movie-recommender-system/
-│
-├── app.py
-├── Movie_Recommendation_System.ipynb
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
 ├── data/
 │   ├── tmdb_5000_movies.csv
 │   └── tmdb_5000_credits.csv
-│
 ├── model/
 │   ├── movies.pkl
 │   ├── movies_dict.pkl
-│   └── similarity.pkl
-│
-└── screenshots/
-    ├── home.png
-    └── recommendation.png
-```
-
----
-
-## ⚙️ Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/movie-recommender-system.git
-```
-
-### Move to project directory
-
-```bash
-cd movie-recommender-system
-```
-
-### Install required packages
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the Streamlit application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 📊 Machine Learning Workflow
-
-1. Data Collection
-2. Data Cleaning & Preprocessing
-3. Feature Engineering
-4. Text Vectorization using CountVectorizer
-5. Stemming using NLTK PorterStemmer
-6. Cosine Similarity Calculation
-7. Movie Recommendation Generation
-8. Streamlit Deployment
-
----
-
-## 📸 Screenshots
-
-### Home Page
-
-> Add `screenshots/home.png`
-
-### Recommendation Page
-
-> Add `screenshots/recommendation.png`
-
----
-
-## 📈 Future Improvements
-
-- ⭐ Movie Ratings
-- 🎭 Genre Filters
-- 🔍 Search Suggestions
-- 🎬 Trailer Integration
-- ❤️ Favorite Movies
-- 🌙 Dark Mode
-- ☁️ Cloud Deployment
-
----
-
-## 📦 Dataset
-
-- TMDB 5000 Movie Dataset
-- TMDB 5000 Credits Dataset
-
----
-
-## ⚠️ Note
-
-The `similarity.pkl` file is large and may not be included in this repository due to GitHub's file size limit. You can regenerate it by running the notebook (`Movie_Recommendation_System.ipynb`).
-
----
-
-## 👩‍💻 Author
-
-**Falak Siddique**
-
-B.Sc. Data Science Student
-
----
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
+│   └── similarity.pkl (Generated locally)
+├── screenshots/
+│   ├── home.png
+│   └── recommendation.png
+├── .gitignore
+├── Movie_Recommendation_System.ipynb
+├── README.md
+├── app.py
+└── requirements.txt
