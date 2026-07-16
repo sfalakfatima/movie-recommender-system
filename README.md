@@ -48,21 +48,16 @@
 
 Yahan application ka visual interface aur working flow dekh sakte hain:
 
-### 1. Home Screen
-<p align="center">
-  <img src="home.png" alt="CineMatch Home Screen" width="800">
-</p>
+## 📸 Screenshots
 
-### 2. Recommendation Result (Example 1)
-<p align="center">
-  <img src="recommendations.png" alt="Movie Recommendations View 1" width="800">
-</p>
+### 🏠 Home Interface
+![Home Page](home.png)
 
-### 3. Recommendation Result (Example 2)
-<p align="center">
-  <img src="recommendation2.png" alt="Movie Recommendations View 2" width="800">
-</p>
+### 🎬 Recommendations Output
+![Recommendation Page](recommendations.png)
 
+### 🍿 Extra Recommendations View
+![Recommendation Page 2](recommendation2.png)
 ---
 
 ## 📂 Project Structure
