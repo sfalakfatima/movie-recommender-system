@@ -44,11 +44,9 @@
 
 ---
 
-## 🖼️ Screenshots
+## 📸 Screenshots
 
 Yahan application ka visual interface aur working flow dekh sakte hain:
-
-## 📸 Screenshots
 
 ### 🏠 Home Interface
 ![Home Page](home.png)
@@ -58,6 +56,7 @@ Yahan application ka visual interface aur working flow dekh sakte hain:
 
 ### 🍿 Extra Recommendations View
 ![Recommendation Page 2](recommendation2.png)
+
 ---
 
 ## 📂 Project Structure
@@ -66,7 +65,7 @@ Yahan application ka visual interface aur working flow dekh sakte hain:
 movie-recommender-system/
 ├── data/
 │   ├── tmdb_5000_movies.csv
-│   └── tmdb_5000_credits.csv
+│   └── tmdb_5000_credits.csv (Generated locally)
 ├── model/
 │   ├── movies.pkl
 │   ├── movies_dict.pkl
