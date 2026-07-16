@@ -1,16 +1,38 @@
+# Machine Learning Models / Large Outputs
+model/
+*.pkl
+*.pickle
+*.h5
+
+# Datasets / Large Data Files
+data/
+*.csv
+*.xlsx
+*.tsv
+*.json
+
+# Python Environment & Virtual Environments
 __pycache__/
 *.pyc
-
+*.pyo
+*.pyd
 .venv/
 venv/
 env/
 
-
+# IDE & Editor Files
 .idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
 
+# Streamlit Configuration & Cache
 .streamlit/
+.streamlit/config.toml
 
+# Operating System Files
 .DS_Store
 Thumbs.db
-
-model/similarity.pkl
