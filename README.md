@@ -15,10 +15,10 @@
 ## 📌 Table of Contents
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
+- [Screenshots](#-screenshots)
 - [Project Structure](#-project-structure)
 - [Machine Learning Workflow](#-machine-learning-workflow)
 - [Installation & Usage](#-installation--usage)
-- [Screenshots](#-screenshots)
 - [Dataset Details](#-dataset-details)
 - [Future Enhancements](#-future-enhancements)
 
@@ -44,6 +44,27 @@
 
 ---
 
+## 🖼️ Screenshots
+
+Yahan application ka visual interface aur working flow dekh sakte hain:
+
+### 1. Home Screen
+<p align="center">
+  <img src="home.png" alt="CineMatch Home Screen" width="800">
+</p>
+
+### 2. Recommendation Result (Example 1)
+<p align="center">
+  <img src="recommendations.png" alt="Movie Recommendations View 1" width="800">
+</p>
+
+### 3. Recommendation Result (Example 2)
+<p align="center">
+  <img src="recommendation2.png" alt="Movie Recommendations View 2" width="800">
+</p>
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -55,9 +76,9 @@ movie-recommender-system/
 │   ├── movies.pkl
 │   ├── movies_dict.pkl
 │   └── similarity.pkl (Generated locally)
-├── screenshots/
-│   ├── home.png
-│   └── recommendation.png
+├── home.png
+├── recommendations.png
+├── recommendation2.png
 ├── .gitignore
 ├── Movie_Recommendation_System.ipynb
 ├── README.md
