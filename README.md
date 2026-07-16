@@ -1,9 +1,9 @@
 # 🎬 Movie Recommendation System
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/movie-recommender-system?style=for-the-badge&color=yellow" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/forks/YOUR_GITHUB_USERNAME/movie-recommender-system?style=for-the-badge&color=blue" alt="GitHub Forks">
-  <img src="https://img.shields.io/github/license/YOUR_GITHUB_USERNAME/movie-recommender-system?style=for-the-badge&color=green" alt="License">
+  <img src="https://img.shields.io/github/stars/sfalakfatima/movie-recommender-system?style=for-the-badge&color=yellow" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/sfalakfatima/movie-recommender-system?style=for-the-badge&color=blue" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/license/sfalakfatima/movie-recommender-system?style=for-the-badge&color=green" alt="License">
 </p>
 
 <p align="center">
